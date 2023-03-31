@@ -2,11 +2,18 @@ h1{
     color: blueviolet;
     background-color: rgb(217, 255, 80);
     text-align: center;
+    margin-top: 0px;
     margin-bottom: 100px;
+
+    position: sticky;
+    top:0;
 }
 
 body{
-    background-size: 100% ;
+    font-size:1vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 img{
@@ -20,6 +27,7 @@ button{
 }
 
 .scrollbar{
+    overflow-y: auto;
     float: right;
 }
 
@@ -28,7 +36,7 @@ button{
     display: flex;
     width: auto;
     height: 200px;
-    max-width: 500px;  
+    width: 500px;  
     border-width: 2px;
     border-color: black;
     border-style:inset;
@@ -39,7 +47,7 @@ button{
 
 .projectDiv:hover{
     transition: 0.7s;
-    background: blue; /* make this whatever you want */
+    background: rgb(200, 100, 100); /* make this whatever you want */
     }
 .projectName{
     size: 14px;
@@ -53,6 +61,6 @@ button{
 
 #allProjectsDiv{
     display: flex;
-   flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
 }
