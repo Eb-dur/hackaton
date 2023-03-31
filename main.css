@@ -2,8 +2,17 @@ h1{
     color: blueviolet;
 }
 
+img{
+    height: 200px;
+    width: auto;
+}
+
 .projectDiv{
-    display: flex;  
+    padding: 1px;
+    display: flex;
+    width: auto;
+    height: 200px;
+    max-width: 500px;  
     border-width: 2px;
     border-color: black;
     border-style: solid;
@@ -11,11 +20,12 @@ h1{
 }
 .projectName{
     size: 14px;
-    margin: 1px;
+    margin: 2px;
 }
 
 .projectDesc{
-    max-width: 950%;
+    margin: 2px;
+    max-width: 95%;
 }
 
 #allProjectsDiv{
