@@ -1,6 +1,6 @@
 h1{
     color: blueviolet;
-    background-color: darkslategray;
+    background-color: rgb(217, 255, 80);
     text-align: center;
     margin-bottom: 100px;
 }
@@ -13,9 +13,13 @@ img{
     height: 200px;
     width: auto;
 }
+button{
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+}
 
 .projectDiv{
-    background-color: darkgray;
     padding: 1px;
     display: flex;
     width: auto;
@@ -23,8 +27,10 @@ img{
     max-width: 500px;  
     border-width: 2px;
     border-color: black;
-    border-style: solid;
+    border-style:inset;
     margin: 2px;
+    font-style: oblique;
+    color: aquamarine;
 }
 .projectName{
     size: 14px;
