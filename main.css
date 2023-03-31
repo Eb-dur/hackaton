@@ -19,6 +19,10 @@ button{
     height: 50px;
 }
 
+.scrollbar{
+    float: right;
+}
+
 .projectDiv{
     padding: 1px;
     display: flex;
@@ -34,6 +38,7 @@ button{
 }
 
 .projectDiv:hover{
+    transition: 0.7s;
     background: blue; /* make this whatever you want */
     }
 .projectName{
