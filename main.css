@@ -1,0 +1,23 @@
+h1{
+    color: blueviolet;
+}
+
+.projectDiv{
+    display: flex;  
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px;
+}
+.projectName{
+    size: 14px;
+    margin: 1px;
+}
+
+.projectDesc{
+    max-width: 950%;
+}
+
+#allProjectsDiv{
+    display: flex;
+}
