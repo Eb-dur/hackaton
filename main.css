@@ -32,6 +32,10 @@ button{
     font-style: oblique;
     color: aquamarine;
 }
+
+.projectDiv:hover{
+    background: blue; /* make this whatever you want */
+    }
 .projectName{
     size: 14px;
     margin: 2px;
