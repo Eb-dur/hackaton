@@ -1,5 +1,12 @@
 h1{
     color: blueviolet;
+    background-color: darkslategray;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+body{
+    background-size: 100% ;
 }
 
 img{
@@ -8,6 +15,7 @@ img{
 }
 
 .projectDiv{
+    background-color: darkgray;
     padding: 1px;
     display: flex;
     width: auto;
@@ -30,4 +38,6 @@ img{
 
 #allProjectsDiv{
     display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
 }
