@@ -73,10 +73,6 @@ img{
     color: aquamarine;
 }
 
-#i{
-    font-style: oblique;
-    color: aquamarine;
-}
 
 .projectDiv:hover{
     transition: 0.7s;
