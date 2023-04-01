@@ -4,12 +4,13 @@ h1{
 
 
 .topBar {
+    z-index:3;
     display: flex;
     background-color: rgb(11,44,60);
     background-size: cover;
     justify-content: center;
-    margin-bottom: 10vw;
     margin-top: 0px;
+    margin-bottom: 10px;
     border: 0px;
     padding: 20px;
     offset: 0;
@@ -100,12 +101,23 @@ img{
     max-width: 95%;
 }
 
+#main_context{
+    display: flex;
+}
+
 #allProjectsDiv{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
 }
 
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
 
 .button {
     background-color: rgb(131,211,147); /* Green */
@@ -122,4 +134,16 @@ img{
 
 #sidebar{
     display: none;
+}
+
+.tic_tac_toe{
+
+    position:absolute;
+    margin:0px;
+    width:99vw;
+    height:35vw;
+    opacity:1;
+    z-index:2;
+    background:#677;
+    display: block;
 }
