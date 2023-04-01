@@ -1,16 +1,21 @@
 h1{
     color: blueviolet;
-    background-color: rgb(217, 255, 80);
+    background-color: black;
+    background-size: cover;
     text-align: center;
+    margin-bottom: 10vw;
     margin-top: 0px;
-    margin-bottom: 100px;
+    border: 0px;
+    padding: 0px;
+    offset: 0;
 
+    /*in case of a scrollbar*/
     position: sticky;
     top:0;
 }
 
 body{
-    font-size:1vw;
+    font-size:20px;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -34,21 +39,35 @@ button{
 .projectDiv{
     padding: 1px;
     display: flex;
-    width: auto;
     height: 200px;
     width: 500px;  
-    border-width: 2px;
-    border-color: black;
-    border-style:inset;
-    margin: 2px;
+    border: 2px black inset;
+    margin: 10px;
+}
+
+.project_Text{
+    font-style: oblique;
+    color: aquamarine;
+}
+
+#i{
     font-style: oblique;
     color: aquamarine;
 }
 
 .projectDiv:hover{
     transition: 0.7s;
-    background: rgb(200, 100, 100); /* make this whatever you want */
-    }
+    background-color: darkslategray; /* make this whatever you want */
+    height: 220px;
+    width: 520px;
+    margin:0px
+}
+
+.projectDiv img{
+    height: 100%;
+    width: auto
+}
+
 .projectName{
     size: 14px;
     margin: 2px;
