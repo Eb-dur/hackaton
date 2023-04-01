@@ -1,12 +1,17 @@
 h1{
-    color: blueviolet;
-    background-color: black;
+    color: rgb(20,68,108);
+}
+
+
+.topBar {
+    display: flex;
+    background-color: rgb(11,44,60);
     background-size: cover;
-    text-align: center;
+    justify-content: center;
     margin-bottom: 10vw;
     margin-top: 0px;
     border: 0px;
-    padding: 0px;
+    padding: 20px;
     offset: 0;
 
     /*in case of a scrollbar*/
@@ -14,21 +19,37 @@ h1{
     top:0;
 }
 
+#logo{
+    padding: 0px;
+    margin: 6px;
+    position:absolute;
+    position:absolute;
+    top:0;
+    right:0;
+    width:auto;
+    height: 90%;
+
+}
+
+#sidebar_btn{
+    padding: 0px;
+    margin: 20px;
+    position:absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:100px;
+    height: 100px;
+}
+
 body{
     font-size:20px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+    background-color: rgb(52,132,108);
 }
 
 img{
     height: 200px;
     width: auto;
-}
-button{
-    opacity: 0;
-    width: 50px;
-    height: 50px;
 }
 
 .scrollbar{
@@ -43,6 +64,7 @@ button{
     width: 500px;  
     border: 2px black inset;
     margin: 10px;
+    background-color: rgba(57,134,106,255);
 }
 
 .project_Text{
@@ -57,7 +79,7 @@ button{
 
 .projectDiv:hover{
     transition: 0.7s;
-    background-color: darkslategray; /* make this whatever you want */
+    background-color: rgba(28,86,86,255); /* make this whatever you want */
     height: 220px;
     width: 520px;
     margin:0px
@@ -82,4 +104,22 @@ button{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+
+.button {
+    background-color: rgb(131,211,147); /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    height:  100%;
+    width: 100%;
+  }
+
+#sidebar{
+    display: none;
 }
