@@ -99,6 +99,8 @@ img{
 
 #main_context{
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #allProjectsDiv{
@@ -111,8 +113,10 @@ img{
 
 
 footer{
+    margin-top: auto;
     display: flex;
     justify-content: space-around;
+
 }
 
 .button {
@@ -136,10 +140,33 @@ footer{
 
     position:absolute;
     margin:0px;
-    width:99vw;
-    height:35vw;
+    width:350px;
+    height:400px;
     opacity:1;
     z-index:2;
     background:#677;
-    display: block;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.board{
+    display:flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+
+}
+.cell{
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    background-color: blue;
+}
+
+#rick_roll{
+    background-color: transparent;
 }
